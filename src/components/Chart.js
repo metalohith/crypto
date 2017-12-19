@@ -57,7 +57,7 @@ export default class Chart extends Component{
 	}
 
 	dataFetch(c,i){
-		fetch('http://coincap.io/history/30day/'+c)
+		fetch('https://coincap.io/history/30day/'+c)
 		.then(results=>{
 			return results.json();
 		}).then(data=>{
