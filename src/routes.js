@@ -8,7 +8,7 @@ const Routes = () => (
   <BrowserRouter>
   	<div>
 		<Route path="/board" component={App} />
-    	<Route path="*" component={Nope} />
+    	<Route path="/nope" component={Nope} />
     </div>
    </BrowserRouter>
 );

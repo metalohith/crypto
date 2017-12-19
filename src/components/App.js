@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './styles/App.css';
 import BarChart from './BarChart';
+import Chart from './Chart';
+import Nope from './Nope';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
-        <div>
-        <BarChart data={[5,10,1,3]} size={[500,500]} />
-        </div>
+      	<Nope></Nope>
+      	<div style={{top:'10vh'}}>
+      		<Chart></Chart>
+      	</div>
       </div>
     );
   }
