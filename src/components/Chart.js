@@ -39,7 +39,6 @@ export default class Chart extends Component{
 			    ]
 			},
 			options:{
-				  legend: { display: false },
 			      title: {
 			        display: true,
 			        text: 'CryptoCurrency'
